@@ -36,7 +36,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"dealloc:%@",NSStringFromClass([self class]));
+    NSLog(@"%s", __func__);
 }
 
 @end
