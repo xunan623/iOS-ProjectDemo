@@ -36,6 +36,7 @@
     animation.repeatDuration = INFINITY;
     animation.autoreverses = YES;
     [doorLayer addAnimation:animation forKey:nil];
+    
 }
 
 
